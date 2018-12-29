@@ -1,0 +1,34 @@
+{
+  "username": "John",
+  "avatar_url": "/apple-avatar.jpg",
+  "image_url": "/kerala.jpg",
+  "posted_at": "December 10",
+  "likes": 20,
+  "comments": [
+    {
+      "user": "kiran",
+      "message": "hello world hello world hello world hello world hello world",
+      "like": true
+    },
+    {
+      "user": "kiran",
+      "message": "hello world hello world hello world hello world hello world",
+      "like": false
+    },
+    {
+      "user": "kiran",
+      "message": "hello world hello world hello hllo wld ello wohello world hello world hello world",
+      "like": false
+    },
+    {
+      "user": "kiran",
+      "message": "hello world hello world",
+      "like": true
+    },
+    {
+      "user": "kiran",
+      "message": "hello world",
+      "like": true
+    }
+  ]
+}
