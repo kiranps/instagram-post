@@ -1,8 +1,10 @@
 {
-  "username": "John",
-  "avatar_url": "/apple-avatar.jpg",
+  "id": 1,
+  "username": "Nature",
+  "avatar_url": "/kerala.jpg",
   "image_url": "/kerala.jpg",
-  "posted_at": "December 10",
+  "posted_at": "2018-01-01T14:00:00.000Z",
+  "like": true,
   "likes": 20,
   "comments": [
     {

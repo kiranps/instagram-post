@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Hearts from "../Icons/Hearts";
-import CommentSVG from "../Icons/Comment";
+import Hearts from "components/Icons/Hearts";
+import CommentIcon from "components/Icons/Comment";
 
 const Post = styled.div``;
 
@@ -43,12 +43,13 @@ const Buttons = styled.section`
   padding: 10px 16px;
 `;
 
-const LikeIcon = () => <Hearts style={{ marginRight: "10px" }} />;
-
-const CommentIcon = styled(CommentSVG)``;
+const LikeIcon = props => <Hearts {...props} style={{ marginRight: "10px" }} />;
 
 const LikeCount = styled.div`
   padding: 0px 16px;
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
 `;
 
 const Comments = styled.div`
@@ -57,23 +58,37 @@ const Comments = styled.div`
 
 const Comment = styled.div`
   margin-top: 10px;
+
   > div {
     display: inline-block;
   }
 `;
 
 const User = styled.div`
-  padding-right: 10px;
+  padding-right: 6px;
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
 `;
 
-const Message = styled.span``;
+const Message = styled.span`
+  font-size: 14px;
+  font-weight: 400;
+`;
 
 const CommentLike = props => (
-  <Hearts {...props} style={{ position: "absolute", right: "10px" }} />
+  <Hearts
+    {...props}
+    size="14px"
+    style={{ position: "absolute", right: "10px" }}
+  />
 );
 
 const PostedAt = styled.div`
   padding: 10px 16px;
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
 `;
 
 const CommentBox = styled.div`
@@ -89,6 +104,7 @@ const TypeComment = styled.textarea.attrs({
   height: 40px;
   border: none;
   outline: none;
+  resize: none;
 `;
 
 const SubmitComment = styled.button`
@@ -98,6 +114,7 @@ const SubmitComment = styled.button`
   color: #3897f0;
   height: 40px;
   border: none;
+  outline: none;
 `;
 
 Post.TitleBar = TitleBar;

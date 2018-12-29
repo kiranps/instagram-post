@@ -3,7 +3,7 @@ import PostPage from "./components/PostPage";
 
 class App extends Component {
   render() {
-    return <PostPage />;
+    return <PostPage id={1} />;
   }
 }
 
