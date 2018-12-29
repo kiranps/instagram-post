@@ -4,7 +4,7 @@
   "avatar_url": "/kerala.jpg",
   "image_url": "/kerala.jpg",
   "posted_at": "2018-01-01T14:00:00.000Z",
-  "like": true,
+  "like": false,
   "likes": 20,
   "comments": [
     {

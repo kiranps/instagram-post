@@ -39,7 +39,7 @@ class PostPage extends Component {
     const { comments } = this.state;
     const message = this.commentRef.current.value;
     this.setState({
-      comments: prepend({ user: "anonymous", message, like: 0 }, comments)
+      comments: prepend({ user: "anonymous", message, like: false }, comments)
     });
     this.commentRef.current.value = "";
   };
