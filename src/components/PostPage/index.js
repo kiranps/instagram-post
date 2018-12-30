@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import moment from "moment";
-import update from "ramda/es/update";
-import merge from "ramda/es/merge";
-import prepend from "ramda/es/prepend";
+import update from "ramda/src/update";
+import merge from "ramda/src/merge";
+import prepend from "ramda/src/prepend";
 import { fetchPost } from "services/post";
 import { Post } from "./Styled";
 

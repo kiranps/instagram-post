@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Hearts from "components/Icons/Hearts";
 import CommentIcon from "components/Icons/Comment";
 
