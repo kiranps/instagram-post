@@ -1,10 +1,12 @@
 {
   "name": "instgram-post",
   "version": "0.1.0",
+  "homepage": "https://kiranps.github.io/instagram-post",
   "private": true,
   "dependencies": {
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
+    "gh-pages": "^2.0.1",
     "jest-styled-components": "^6.3.1",
     "moment": "^2.23.0",
     "prop-types": "^15.6.2",
@@ -21,6 +23,8 @@
     "react-scripts": "2.1.2"
   },
   "scripts": {
+    "predeploy": "NODE_PATH=src npm run build",
+    "deploy": "gh-pages -d build",
     "start": "NODE_PATH=src react-scripts start",
     "build": "NODE_PATH=src react-scripts build",
     "test": "NODE_PATH=src react-scripts test",
