@@ -1,8 +1,8 @@
 const fakeData = {
   id: 1,
   username: "Nature",
-  avatar_url: "/kerala.jpg",
-  image_url: "/kerala.jpg",
+  avatar_url: "kerala.jpg",
+  image_url: "kerala.jpg",
   posted_at: "2018-01-01T14:00:00.000Z",
   like: false,
   likes: 20,
